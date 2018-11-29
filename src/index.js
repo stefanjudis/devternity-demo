@@ -23,6 +23,7 @@ client
         <div className="App">
           <h1>{page.fields.title}</h1>
           <ReactMarkdown source={page.fields.body} />
+          <h2>{page.fields.subHeadline}</h2>
         </div>
       );
     }
